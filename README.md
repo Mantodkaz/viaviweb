@@ -5,10 +5,11 @@ mass upload viaviweb. <br>
 ```
 $ git clone https://github.com/Mantodkaz/viaviweb
 $ cd viaviweb
-$ bash exploit.sh
+$ python3 exploit.py
 ```
 #### Note
-all your result vuln will saved in file result.txt
+This script is only for testing. so it is not equipped with threads or parallels.<br>therefore, if used for a large number of URLs it will take quite a long time.<br>but you can add it yourself to the code to overcome this.<br><br>
+All your result vuln will saved in file result.txt
 
 
 
